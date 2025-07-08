@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.parent-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: cyan;
+}
+
+.child-container{
+    /* border: 1px solid green; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.child-container .box{
+    width: 50%;
+    padding: 20px 100px;
+    height: 600px;
+}
+
+.child-container .box1{
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+     /* text-align: center; */
+}
+.child-container .box2{
+    background-color: #27C48D;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding: 40px;
+  /* height: 100vh; */
+  text-align: center;
+  position: relative;
+     
+}
+
+.child-container .box1 .textcontent{
+/* border: 1px solid; */
+
+}
+
+.child-container .box1 .textcontent h2{
+    font-size: 32px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.child-container .box1 .textcontent form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(211, 238, 238);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+input::placeholder{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btnsignin{
+     width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #05976A;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.signin-with {
+    text-align: center;
+    
+}
+
+.social-icons {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+    gap: 10px;
+}
+
+
+.social-icons i{
+    font-size: 28px;
+   
+}
+
+
+.social-icons .fa-facebook{
+  color: #106AFF;
+  cursor: pointer;
+} 
+
+.social-icons .fa-google-plus{
+    color: #DE493D;
+    cursor: pointer;
+}
+
+
+.social-icons .fa-linkedin{
+color:#1469C7;
+cursor: pointer;
+}
+
+.box2 .textcontent{
+    color: white;
+}
+
+.box2 .textcontent h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.box2 .textcontent h3, p{
+    margin-bottom: 20px;
+}
+
+.box2 .textcontent p{
+    font-size: 20px;
+
+}
+
+.box2 .btnsignup{
+    background-color: #0b9c6e;
+    padding: 20px 30px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    box-shadow: 3px 3px 10px rgb(88, 86, 86);
+}
